@@ -1,0 +1,130 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lg1
+{
+color: #fff;
+font-size: 1.5rem;
+}
+
+.lg2
+{
+    color: red;
+    text-transform: uppercase;
+    position: absolute;
+
+}
+.bar
+{
+    background-color: black;
+    height: 30px;
+    display: flex;
+}
+a
+{
+    text-decoration: none;
+}
+li
+{
+position: absolute;
+right: 0;
+}
+#ico
+{
+    color: #fff;
+}
+h3
+{
+    text-align: center;
+}
+.menu{
+    list-style:none;
+    border:1px solid #333;
+    float:right;
+}
+.menu li{
+    position:absolute;
+    float:right;
+}
+.menu li span a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+.menu li span a:hover{
+    background:#333;
+    color:#fff;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    text-shadow:0px 0px 5px #fff;
+}
+.h3
+{
+font-family: sans-serif;
+text-transform: uppercase;
+box-shadow: 2px 1px  #333;
+margin: 1;
+}
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#fff;
+    display:none;
+}
+.menu li:hover ul, .menu li.over ul{display:block;}
+.menu li ul li{
+    display:block;
+    width:150px;
+    float: right;
+    right: 0;
+    background-color: #333;
+}
+.menu2{
+    list-style:none;
+    border:1px solid #c0c0c0;
+    float:left;
+    left: 0;
+}
+.menu2 li{
+    position:relative;
+    float:left;
+}
+.menu2 li a{color:#fff; text-decoration:none; padding:5px 10px; display:block;}
+.menu2 li a:hover{
+    background:#333;
+    color:#fff;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    text-shadow:0px 0px 5px #fff;
+}
+.menu2 li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#333;
+    display:none;
+}
+.menu2 li:hover ul, .menu li.over ul{display:block;}
+.menu2 li ul li{
+    display:block;
+    width:150px;
+    float: right;
+    right: 0;
+    background-color: #333;
+}
+
+
+.midias
+{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+
+}
+
+.item
+{
+    margin: 5px;
+}
